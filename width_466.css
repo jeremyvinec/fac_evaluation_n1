@@ -1,0 +1,41 @@
+@media screen and (max-width: 466px) {
+
+    h1{
+        font-size: 1.5em;
+    }
+
+    h2{
+        font-size: 1em;
+    }
+
+    h3{
+        font-size: 0.5em;
+    }
+
+    p{
+        font-size: 0.75em;
+    }
+
+    main{
+        width: 300px !important;
+    }
+
+    footer{
+        width: 300px!important;
+    }
+
+    .responsive{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .bloc {
+        display:block;
+        clear:both;
+    }
+
+    .bubble{
+        float: none;
+    }
+}

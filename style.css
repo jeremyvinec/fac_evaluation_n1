@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'bernina';
+    src: url("fonts/BerninaSans-Web-CondensedBold.woff2");
+}
+
+*{margin: 0 auto;}
+
+body{
+    backgound-color: #f7ffff;
+    font-family: 'bernina', sans-serif;
+    color: #00475d;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: lighter;
+    border:1px solid #838c8b;
+    border-radius: 3px;
+}
+
+h3{
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1em;
+}
+
+main{
+    width: 600px;
+    text-align: center;
+}
+
+footer{
+    width: 600px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.col-1{
+    width: 50%;
+}
+
+.banner{
+    position: relative;
+}
+
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+.bloc{
+    display: inline;
+}
+
+.text_header{
+    color: #fff;
+    background-color: #c4cfd1;
+    width: 100%;
+    position: absolute;
+    opacity: 0.3;
+    bottom: 8px;
+}
+
+.text_header p{
+    margin-left: 5px;
+}
+
+.text_header span{
+    font-size: 0.5em;
+}
+
+.bubble{
+    margin: 50px;
+    float: left;
+}
+
+.bubble p{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.bubble img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.section1{
+    display: flex;
+    margin-top: 5%;
+}
+
+.section1 img{
+    float: left;
+}
+
+.section2{
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.section2 p{
+    margin-top: 5%;
+}
+
+.text_red{
+    color: #fff;
+    width: 150px;
+    background-color: #810426;
+    position: absolute;
+    top: 30px;
+    right: 16px;
+    border-radius: 3px;
+    transform: rotate(20deg);
+}
+
+.text_red span{
+    font-size: 0.5em;
+}
+
+.rdv{
+    width: 130px;
+}
+
+
